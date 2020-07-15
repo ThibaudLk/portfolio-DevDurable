@@ -2,64 +2,64 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'DevDurable', // e.g: 'Name | Developer'
+  lang: 'fr', // e.g: en, es, fr, jp
+  description: 'Bienvenue sur mon site', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
-  cta: '',
+  title: 'Bonjour, ici',
+  name: 'DevDurable',
+  subtitle: 'Bienvenue sur mon portfolio',
+  cta: 'En savoir plus',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
+  paragraphOne: 'Bonjour, je me présente : Thibaud Larrière, 24 ans. Développeur de formation.',
+  paragraphTwo: 'Tombé amoureux du voyage, j\'ai passé deux ans à voyager et à découvrir le monde.',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: '', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'site-nomicreations.png',
+    title: 'NoMi Créations',
+    info: 'Site vitrine d\'une Artiste Plasticienne.',
+    info2: 'Réalisé avec Gatsby, React, AntDesign et Netlify CMS lui permettant une autonomie sur la gestion de son contenu !',
+    url: 'https://www.nomi-creations.fr/',
+    repo: 'https://github.com/ThibaudLk/NoMiProject', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'site-devdurable.png',
+    title: 'Développeur Durable',
+    info: 'Un site web personnel que j\'ai créé afin de raconter mes voyages.',
+    info2: 'Réalisé avec Meteor, MongoDB et Blaze. Il comprend un article builder 100% fait main.',
+    url: 'http://developpeur-durable.fr/',
+    repo: 'https://github.com/ThibaudLk/testNodeJs', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'site-theatrepetitpierre.png',
+    title: 'Théâtre du Petit-Pierre',
+    info: 'Le site d\'une compagnie de Théâtre',
+    info2: 'Réalisé en pur HTML/CSS, avec un chouilla de PHP pour structurer le site !',
+    url: 'http://www.theatredupetitpierre.fr/',
+    repo: '', // if no repo, the button will not show up
   },
 ];
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
-  btn: '',
-  email: '',
+  cta: 'N\'hésitez pas à m\'écrire un petit mot !',
+  btn: 'M\'écrire',
+  email: 'thibaud@developpeur-durable.fr',
 };
 
 // FOOTER DATA
@@ -67,28 +67,28 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
+      name: 'facebook',
+      url: 'https://www.facebook.com/thibaud.larriere',
     },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
+    // {
+    //   id: nanoid(),
+    //   name: 'codepen',
+    //   url: '',
+    // },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/thibaud-larri%C3%A8re-747323167/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/ThibaudLk',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
