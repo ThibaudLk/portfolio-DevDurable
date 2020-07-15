@@ -18,10 +18,10 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: 'Bonjour, je me présente : Thibaud Larrière, 24 ans. Développeur de formation.',
-  paragraphTwo: 'Tombé amoureux du voyage, j\'ai passé deux ans à voyager et à découvrir le monde.',
-  paragraphThree: '',
-  resume: '', // if no resume, the button will not show up
+  paragraphOne: 'Bonjour, je me présente : Thibaud Larrière, 24 ans. Développeur de formation. Autodidacte de nature, j\'aime apprendre, tester, rater, rééssayer.',
+  paragraphTwo: 'Amoureux du voyage, j\'ai passé deux ans à voyager et à découvrir le monde. Des expériences inoubliables de rencontres et de partage.',
+  paragraphThree: '... l\'Agilité, le Code de qualité, les Bonnes pratiques, le Paratage, le Rire, la Créativité ... \n Tels sont mes maîtres mots',
+  resume: 'cv-thibaud-2020.pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -32,7 +32,7 @@ export const projectsData = [
     title: 'NoMi Créations',
     info: 'Site vitrine d\'une Artiste Plasticienne.',
     info2: 'Réalisé avec Gatsby, React, AntDesign et Netlify CMS lui permettant une autonomie sur la gestion de son contenu !',
-    url: 'https://www.nomi-creations.fr/',
+    url: 'https://nomi-creations.fr/',
     repo: 'https://github.com/ThibaudLk/NoMiProject', // if no repo, the button will not show up
   },
   {
@@ -48,7 +48,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'site-theatrepetitpierre.png',
     title: 'Théâtre du Petit-Pierre',
-    info: 'Le site d\'une compagnie de Théâtre',
+    info: 'Le site d\'une compagnie de Théâtre.',
     info2: 'Réalisé en pur HTML/CSS, avec un chouilla de PHP pour structurer le site !',
     url: 'http://www.theatredupetitpierre.fr/',
     repo: '', // if no repo, the button will not show up
