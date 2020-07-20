@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne: 'Bonjour, je me présente : Thibaud Larrière, 24 ans. Développeur de formation. Autodidacte de nature, j\'aime apprendre, tester, rater, rééssayer.',
   paragraphTwo: 'Amoureux du voyage, j\'ai passé deux ans à voyager et à découvrir le monde. Des expériences inoubliables de rencontres et de partage.',
   paragraphThree: '... l\'Agilité, le Code de qualité, les Bonnes pratiques, le Paratage, le Rire, la Créativité ... \n Tels sont mes maîtres mots',
-  resume: '', // if no resume, the button will not show up
+  resume: 'cv-thibaud-2020.pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA

@@ -1,4 +1,5 @@
 import React, { useContext, useState, useEffect } from 'react';
+import downloadFile from '../../../public/static/cv-thibaud-2020.pdf' 
 import Fade from 'react-reveal/Fade';
 import { Container, Row, Col } from 'react-bootstrap';
 import Title from '../Title/Title';
@@ -54,7 +55,7 @@ const About = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                       className="cta-btn cta-btn--resume"
-                      href={resume}
+                      href={downloadFile}
                     >
                       Consulter mon CV
                     </a>
