@@ -1,5 +1,5 @@
 import React, { useContext, useState, useEffect } from 'react';
-import downloadFile from '../../../public/static/cv-thibaud-2020.pdf' 
+import downloadFile from '../../images/cv-thibaud-2020.pdf' 
 import Fade from 'react-reveal/Fade';
 import { Container, Row, Col } from 'react-bootstrap';
 import Title from '../Title/Title';
